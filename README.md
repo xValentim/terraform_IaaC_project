@@ -58,25 +58,21 @@ Este projeto visa a criação de uma infraestrutura na AWS utilizando práticas 
         DB_NAME=""
       ```
    - Execute os scripts Terraform na seguinte ordem:
-     - `terraform init -var-file="secrets.tfvars"` para inicializar o ambiente.
-     - `terraform plan` para verificar as alterações planejadas.
-     - `terraform apply` para aplicar as mudanças na infraestrutura.
+     - `terraform init"` para inicializar o ambiente.
+     - `terraform plan -var-file="secrets.tfvars` para verificar as alterações planejadas.
+     - `terraform apply -var-file="secrets.tfvars` para aplicar as mudanças na infraestrutura.
   
 3. **Validação da Infraestrutura**
    - Após a execução do Terraform, verifique os recursos criados na AWS.
    - Teste a conexão entre a aplicação e o banco de dados.
   
 4. **Análise de Custos**
-   - Utilize a Calculadora de Custo da AWS com os parâmetros do projeto para estimar os gastos mensais.
-   - Documente os resultados e possíveis otimizações.
-  
-5. **Documentação**
-   - Atualize a documentação técnica com todas as etapas realizadas e decisões tomadas.
+   - Mais abaixo você pode encontrar as descrições dos custos, todas elas feitas utilizando a calculadora da AWS
 
 
 ### Detalhes de Custos AWS
 
-Este projeto faz uso de uma série de serviços da Amazon Web Services (AWS) para suportar suas funcionalidades. Abaixo estão os custos associados a cada serviço:
+Este projeto faz uso de uma série de serviços da Amazon Web Services (AWS) para suportar suas funcionalidades. Abaixo estão os custos *estimados* associados a cada serviço:
 
 #### Amazon EC2
 - **Custo Mensal:** 8,47 USD

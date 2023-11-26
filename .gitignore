@@ -1,0 +1,13 @@
+gabriel.valentim_credentials.csv
+keys_instancia.pem
+.env
+*.tfvars
+/credentials
+/cred 
+/.terraform
+/scratch
+app.py
+.terraform.lock.hcl
+id_rsa
+id_rsa.pub
+user_data.tftpl
