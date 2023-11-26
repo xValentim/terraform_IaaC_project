@@ -59,8 +59,8 @@ Este projeto visa a criação de uma infraestrutura na AWS utilizando práticas 
       ```
    - Execute os scripts Terraform na seguinte ordem:
      - `terraform init"` para inicializar o ambiente.
-     - `terraform plan -var-file="secrets.tfvars` para verificar as alterações planejadas.
-     - `terraform apply -var-file="secrets.tfvars` para aplicar as mudanças na infraestrutura.
+     - `terraform plan -var-file="secrets.tfvars"` para verificar as alterações planejadas.
+     - `terraform apply -var-file="secrets.tfvars"` para aplicar as mudanças na infraestrutura.
   
 3. **Validação da Infraestrutura**
    - Após a execução do Terraform, verifique os recursos criados na AWS.
